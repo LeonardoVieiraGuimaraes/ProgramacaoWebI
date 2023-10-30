@@ -1,0 +1,19 @@
+.main {
+    width: 350px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+body {
+    text-align: center;
+    background-color: #C7E123
+}
+a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7C6B6B
+}
+
+p, td, h1, input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

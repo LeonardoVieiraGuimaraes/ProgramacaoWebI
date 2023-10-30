@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(64, 64, 64);
+}
+
+#compras {
+    text-align: right;
+}
+#comprasLink {
+    color: #cecece;
+}
