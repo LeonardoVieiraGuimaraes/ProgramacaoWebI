@@ -1,14 +1,38 @@
+<!-- A declaração DOCTYPE define o tipo de documento e a versão do HTML -->
 <!DOCTYPE html>
+
+<!-- A tag <html> é a raiz de um documento HTML e define o idioma do documento como português brasileiro -->
 <html lang="pt-br">
+  <!-- A tag <head> contém metadados/informações sobre o documento -->
   <head>
+    <!-- A tag <meta charset="UTF-8"> define a codificação de caracteres para o documento -->
     <meta charset="UTF-8" />
+
+    <!-- A tag <meta name="viewport"> torna a página responsiva em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- A tag <title> define o título do documento, que é exibido na barra de título do navegador -->
     <title>Hello World</title>
+
+    <!-- A tag <link> é usada para vincular uma folha de estilo externa ao documento HTML -->
+    <!-- O atributo 'rel' define a relação entre o documento HTML e o arquivo vinculado -->
+    <!-- O atributo 'href' especifica o caminho para o arquivo vinculado -->
     <link rel="stylesheet" href="06 - styles.css" />
   </head>
+
+  <!-- A tag <body> contém o conteúdo principal do documento HTML -->
   <body>
-    <p class="hello"">Hello World</p>
+    <!-- A tag <p> define um parágrafo -->
+    <!-- O atributo 'class' é usado para especificar uma ou mais classes para um elemento HTML -->
+    <!-- O texto dentro da tag <p> é o conteúdo do parágrafo -->
+    <p class="hello">Hello World</p>
+
+    <!-- Outro parágrafo com um link dentro -->
+    <!-- O atributo 'id' é usado para especificar um identificador único para um elemento HTML -->
     <p id="compras">
+      <!-- A tag <a> define um hiperlink -->
+      <!-- O atributo 'href' especifica o URL da página que o link vai para -->
+      <!-- O texto dentro da tag <a> é o texto do link -->
       <a id="comprasLink" href="04 - listascompras.html">Lista de compras</a>
     </p>
   </body>
