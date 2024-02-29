@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autoatividade</title>
+  </head>
+  <body>
+    <!-- Questão 1, um parágrafo com id -->
+    <p id="nome">UNIASSELVI</p>
+    <script type="text/javascript">
+      // Questão 2: Obtendo o texto do parágrafo
+      // através do id em JavaScript
+      var nome = document.getElementById("nome").innerHTML;
+      // Questão 3: Exibe se a quantidade de caracteres
+      // do nome é par ou ímpar
+      var comprimento = nome.length;
+      var par = comprimento % 2 == 0;
+      if (par) {
+        alert("par");
+      } else {
+        alert("impar");
+      }
+    </script>
+  </body>
+</html>

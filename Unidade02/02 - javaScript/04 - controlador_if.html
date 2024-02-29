@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>if em JavaScript</h1>
+    <script type="text/javascript">
+      document.write("<p>");
+      // Define a letiável para armazenar o saldo bancári o
+      let saldoBancario = 40000;
+      if (saldoBancario >= 35340) {
+        document.write("Irei comprar um carro 0 km :-)");
+      } else {
+        document.write("Irei comprar um carro usado :-|");
+      }
+      // Resultado: Irei comprar um carro 0 km :-)
+      document.write("</p>");
+    </script>
+
+    <h1>Verificando erro ao fazer contas</h1>
+    <script type="text/javascript">
+      document.write("<p>");
+      let contaLouca = 30 / 0;
+      if (isFinite(contaLouca)) {
+        document.write("A conta louca deu certo :-)");
+      } else {
+        document.write("Deu erro na conta louca :-(");
+      }
+      // Resultado: Deu erro na conta louca :-(
+
+      document.write("</p>");
+    </script>
+
+    <h1>Looping for</h1>
+    <script type="text/javascript">
+      document.write("<p>");
+      // Imprimindo os algarismos de um a dez
+      // com o looping for
+      for (let i = 1; i <= 10; ++i) {
+        document.write(i + "<br />");
+      }
+      // Resultado 1 2 3 4 5 6 7 8 9 10
+      // um número por linha
+      document.write("</p>");
+    </script>
+
+    <h1>Looping com while</h1>
+    <script type="text/javascript">
+      document.write("<p>");
+      // Imprimindo os algarismos de um a dez
+      // com o looping while
+      var i = 1;
+      while (i <= 10) {
+        document.write(i + "<br />");
+        ++i;
+      }
+      // Resultado 1 2 3 4 5 6 7 8 9 10
+      // um número por linha
+      document.write("</p>");
+    </script>
+  </body>
+</html>

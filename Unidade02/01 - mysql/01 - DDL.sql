@@ -1,0 +1,15 @@
+CREATE TABLE Pessoa (
+    CPF VARCHAR(11) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    RG VARCHAR(20),
+    DataNascimento DATE
+);
+
+SELECT * FROM Pessoa;
+
+
+ALTER TABLE Pessoa
+ADD Email VARCHAR(100);
+
+
+DROP TABLE Pessoa;
