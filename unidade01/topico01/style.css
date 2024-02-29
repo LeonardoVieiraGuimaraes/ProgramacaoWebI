@@ -1,0 +1,15 @@
+p {
+  color: rgba(129, 98, 185, 0.795);
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  border: #000 solid 20px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25;
+}
+
+h1 {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
