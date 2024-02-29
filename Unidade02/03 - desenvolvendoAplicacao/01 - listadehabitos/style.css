@@ -1,0 +1,44 @@
+/* A classe .center centraliza um elemento horizontalmente definindo as margens esquerda e direita como automáticas e dando ao elemento uma largura fixa */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+/* A regra body define a cor de fundo do corpo do documento e centraliza o texto */
+body {
+  background-color: #c7e123;
+  text-align: center;
+}
+
+/* A regra a define a fonte e a cor dos links */
+a {
+  font-family: sans-serif;
+  color: #7c6b6b;
+}
+
+/* A regra p, td, h1, input define a fonte para parágrafos, células de tabela, cabeçalhos h1 e campos de entrada */
+p,
+td,
+h1,
+input {
+  font-family: sans-serif;
+}
+
+/* A regra input define a cor de fundo e a borda dos campos de entrada */
+input {
+  background-color: #b7ce20;
+  border: 0;
+}
+
+/* A regra table faz com que as bordas das células da tabela colapsem em uma única borda */
+table {
+  border-collapse: collapse;
+}
+
+/* A regra table, td, th define a borda para tabelas, células de tabela e cabeçalhos de tabela */
+table,
+td,
+th {
+  border: 1px solid black;
+}

@@ -1,0 +1,24 @@
+/* O seletor '#compras' seleciona o elemento HTML com o id 'compras' */
+#compras {
+  /* A propriedade 'text-align' define o alinhamento horizontal do texto */
+  /* Neste caso, o texto dentro do elemento com id 'compras' será centralizado */
+  text-align: center;
+}
+
+/* O seletor '#comprasLink' seleciona o elemento HTML com o id 'comprasLink' */
+#comprasLink {
+  /* A propriedade 'color' define a cor do texto */
+  /* Neste caso, a cor do texto do elemento com id 'comprasLink' será verde */
+  color: green;
+}
+
+/* O seletor '.hello' seleciona todos os elementos HTML com a classe 'hello' */
+.hello {
+  /* A propriedade 'color' define a cor do texto */
+  /* Neste caso, a cor do texto dos elementos com a classe 'hello' será vermelha */
+  color: red;
+
+  /* A propriedade 'text-align' define o alinhamento horizontal do texto */
+  /* Neste caso, o texto dentro dos elementos com a classe 'hello' será centralizado */
+  text-align: center;
+}

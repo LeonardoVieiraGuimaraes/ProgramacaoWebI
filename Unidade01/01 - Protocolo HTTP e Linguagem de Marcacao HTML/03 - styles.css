@@ -1,0 +1,13 @@
+/* A seletor 'body' seleciona o elemento HTML <body> */
+body {
+  /* A propriedade 'background-color' define a cor de fundo do elemento */
+  /* Neste caso, a cor de fundo do corpo do documento é definida como amarelo */
+  background-color: yellow;
+}
+
+/* O seletor 'p' seleciona todos os elementos HTML <p> (parágrafos) */
+p {
+  /* A propriedade 'text-align' define o alinhamento horizontal do texto */
+  /* Neste caso, o texto dentro de todos os parágrafos será centralizado */
+  text-align: center;
+}
