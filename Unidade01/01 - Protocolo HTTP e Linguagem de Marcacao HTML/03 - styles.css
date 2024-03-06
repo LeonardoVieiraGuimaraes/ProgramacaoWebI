@@ -2,6 +2,10 @@
 body {
   /* A propriedade 'background-color' define a cor de fundo do elemento */
   /* Neste caso, a cor de fundo do corpo do documento é definida como amarelo */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  font-size: small;
+
   background-color: yellow;
 }
 
