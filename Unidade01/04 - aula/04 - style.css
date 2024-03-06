@@ -1,65 +1,62 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f0f0f0;
+* {
+  margin: 10px;
+  padding: 0;
 }
 
-form {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+fieldset {
+  border: 0;
 }
 
-.campo {
-  margin-bottom: 10px;
-}
-
-.campo label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.campo input[type="text"],
-.campo input[type="email"],
-.campo textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+body,
+input,
+select,
+textarea,
+button {
+  font-family: sans-serif;
   font-size: 1em;
-  box-sizing: border-box; /* Adicione esta linha */
 }
 
-.campo input[type="radio"] {
-  margin-right: 10px;
-}
-
-button[type="submit"] {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
+.botao {
+  font-size: 1.5em;
+  background: #f90;
+  border: 0;
+  margin-bottom: 1em;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-button[type="submit"]:hover {
-  background-color: #0056b3;
+.botao:hover {
+  background: #fb0;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
 }
 
-.botao,
-slect,
+select,
 label.checkbox {
   cursor: pointer;
 }
 
-fieldset.grupo.campo {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #666;
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+textarea {
+  padding: 0.2em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
 }

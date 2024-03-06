@@ -1,0 +1,12 @@
+table.bordadimples {
+  border-collapse: collapse;
+}
+
+table.bordasimples tr td {
+  border: 1px solid #ff0000;
+}
+
+td:hover {
+  background-color: #f0f0f0;
+  text-decoration: underline;
+}

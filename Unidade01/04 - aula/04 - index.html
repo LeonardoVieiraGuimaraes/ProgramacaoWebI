@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="04 - style.css" />
   </head>
   <body>
-    <form id="form">
-      <fieldset class="grupo" id="grupo">
-        <div class="campo" id="campo-informacoes">
-          <legend id="legend-informacoes">Informações Pessoais</legend>
-        </div>
-        <div class="campo" id="campo-sexo">
+    <form id="form" method="post">
+      <fieldset>
+        <legend id="legend-informacoes">Informações Pessoais</legend>
+        <fieldset class="grupo">
+          <div class="campo">
+            <label
+              >Nome
+              <input type="text" id="nome" name="nome" value="" />
+            </label>
+          </div>
+        </fieldset>
+        <div class="campo">
           <label id="label-sexo">
             Sexo:
             <input
@@ -31,20 +37,20 @@
             Feminino
           </label>
         </div>
-        <div class="campo" id="campo-email">
+        <div class="campo">
           <label id="label-email">
             Email:
             <input type="email" id="email" name="email" />
           </label>
         </div>
-        <div class="campo" id="campo-mensagem">
+        <div class="campo">
           <label id="label-mensagem">
             Mensagem:
             <textarea id="mensagem" name="mensagem"></textarea>
           </label>
         </div>
+        <button type="submit" class="botao" id="botao">Enviar</button>
       </fieldset>
-      <button type="submit" id="botao">Enviar</button>
     </form>
   </body>
 </html>
