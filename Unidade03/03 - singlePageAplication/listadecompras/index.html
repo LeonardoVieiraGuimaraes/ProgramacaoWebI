@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="lib/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <title>Compras</title>
+  </head>
+  <body ng-controller="listadecompra">
+    <div class="main jumbotron">
+      <h1>Compras</h1>
+      <p>
+        <label for="item">Item:</label>
+        <input type="text" id="item" ng-model="item" />
+      </p>
+      <p>
+        <button ng-click="adicionarAlista()" class="btn btn-primary">
+          Adicionar
+        </button>
+      </p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th colspan="2">Itens</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="it in itens">
+            <td>
+              <button class="btn btn-danger" ng-click="removerDaLista(it)">
+                Remover
+              </button>
+            </td>
+            <td>{{it}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
