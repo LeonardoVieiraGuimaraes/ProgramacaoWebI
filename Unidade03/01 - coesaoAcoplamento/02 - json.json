@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Luiz de Souza",
+        "hobbie": "Video Game",
+        "datanascimento": "08/05/1974 12:20:03 pm"
+    },
+    {
+        "nome": "Eduardo Machado",
+        "hobbies": ["video game", "cachorros", "tênis de mesa"],
+        "datanascimento": "08/05/1991 12:30:04 pm"
+    }
+]
