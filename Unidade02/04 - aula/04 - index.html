@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <link rel="stylesheet" href="04 - style.css" />
+  </head>
+  <body>
+    <form id="form" method="post" action="04 - grava.php">
+      <fieldset>
+        <legend id="legend-informacoes">Informações Pessoais</legend>
+        <fieldset class="grupo">
+          <div class="campo">
+            <label
+              >Nome
+              <input type="text" id="nome" name="nome" value="" />
+            </label>
+          </div>
+        </fieldset>
+        <div class="campo">
+          <label id="label-sexo">
+            Sexo:
+            <input
+              type="radio"
+              id="sexo-masculino"
+              name="sexo"
+              value="masculino"
+            />
+            Masculino
+            <input
+              type="radio"
+              id="sexo-feminino"
+              name="sexo"
+              value="feminino"
+            />
+            Feminino
+          </label>
+        </div>
+        <div class="campo">
+          <label id="label-email">
+            Email:
+            <input type="email" id="email" name="email" />
+          </label>
+        </div>
+        <div class="campo">
+          <label id="label-mensagem">
+            Mensagem:
+            <textarea id="mensagem" name="mensagem"></textarea>
+          </label>
+        </div>
+        <button type="submit" class="botao" id="botao">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
