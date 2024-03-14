@@ -19,7 +19,7 @@
         <?php
         // Define constantes para as credenciais do banco de dados
         const HOST = 'localhost';
-        const PORT = '3307';
+        const PORT = '3306';
         const USER = 'root';
         const PASS = '';
         const BASE = 'listadehabito';

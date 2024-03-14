@@ -1,7 +1,7 @@
 <?php
 // Define constantes para as credenciais do banco de dados
 const HOST = 'localhost'; // O host do banco de dados
-const PORT = '3307'; // A porta do banco de dados
+const PORT = '3306'; // A porta do banco de dados
 const USER = 'root'; // O usuário do banco de dados
 const PASS = ''; // A senha do banco de dados
 const BASE = 'listadehabito'; // O nome do banco de dados
